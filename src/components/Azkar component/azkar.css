@@ -1,0 +1,18 @@
+h4{
+    background-color: #031d42;
+    width: 60%;
+    height: 31px;
+    color: beige
+}
+p:hover{
+    color: beige;
+}
+#body{
+    margin-right: -19%;
+}
+@media screen and (max-width: 480px) {
+    #body{
+        margin-right: -3%;
+    
+    }
+}

@@ -1,0 +1,91 @@
+h1 {
+    color: white;
+    padding: 13%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-right: -8%;
+}
+h6 , h5{
+    color: #9abbf3;
+    padding-left: 2%;
+    padding-bottom: 3%;
+    
+    
+}
+h5{
+    padding-right: 5%;
+}
+h6:hover{
+    color: #0861fd;
+    cursor: pointer;
+}
+
+.tittle{
+    margin-bottom: 3%;
+}
+.city{
+    display: flex;
+    flex-direction: row;
+    padding-right: 6%;
+    margin-right: 5%;
+}
+.city .active{
+    color: #0861fd;
+
+}
+
+    .container{
+        padding-right: 8% !important;    
+    }
+    @media screen and (max-width: 334px) {
+        .container{
+            margin-right: 8% !important;
+
+        }
+    }
+.row .col-xl-3{
+    color: #c8cfde;
+    border: 2px solid #0861fd;
+    border-radius: 8%;
+    margin-bottom: 4%;
+    margin-left: 8%;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+
+}
+@media screen and (max-width: 465px) {
+    .row .col-xl-3{
+        margin-right: 20% !important;
+        margin-left: 20% !important;
+
+    }
+}
+@media screen and (max-width: 356px) {
+    .row .col-xl-3{
+        margin-right: 16% !important;
+        margin-left: 25% !important;
+
+    }
+}
+@media screen and (max-width: 325px) {
+    .row .col-xl-3{
+        margin-right: 5% !important;
+        margin-left: 25% !important;
+
+    }
+}
+
+.row .col-xl-3 .prayWindow {
+ width: 100%;
+
+}
+.row .activee {
+ background-color: #0861fd;
+
+}
+#head{
+    margin-top: 22%;
+    margin-bottom: 12%;
+    margin-left: 0%;
+}

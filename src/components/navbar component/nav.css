@@ -1,0 +1,33 @@
+
+ul{
+    direction: none;
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+}
+li{
+    padding: 5%;
+    list-style-type: none;
+
+}
+@media screen and (max-width: 760px) {
+    li{
+        padding: 2%;
+    
+    }
+  }
+a:link {
+  text-decoration: none;
+  color:#c8cfff;
+  cursor: pointer;
+
+}
+p {
+    color: #9abbf3; 
+    font-weight: bolder;
+}
+
+ .active{
+    color: #0861fd;
+
+}
